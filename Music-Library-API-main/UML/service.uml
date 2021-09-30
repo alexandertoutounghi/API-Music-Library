@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.repository.service</OriginalElement>
+  <nodes>
+    <node x="328.0" y="0.0">com.repository.service.ErrorAdvice</node>
+    <node x="17.0" y="370.0">com.repository.service.RestAPI</node>
+    <node x="0.0" y="0.0">com.repository.service.Router</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.repository.service.RestAPI" target="com.repository.service.Router">
+      <point x="-62.25" y="-182.0" />
+      <point x="79.25" y="345.0" />
+      <point x="70.75" y="345.0" />
+      <point x="-70.75" y="160.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8713527851458885" x="395.5" y="367.0" />
+  <SelectedNodes>
+    <node>com.repository.service.ErrorAdvice</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,445 @@
+{
+	"info": {
+		"_postman_id": "b1480f8b-1609-4bbf-8c1b-379b94eadaf1",
+		"name": "SOEN-487",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_artist_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_artist_eminem_description",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/home/Artist/Eminem",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist",
+						"Eminem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_artist_atlas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Atlas\",\r\n    \"first_name\":\"Frank\",\r\n    \"last_name\":\"Frontaine\",\r\n    \"bio\":\"I am from Atlast Industries\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_artist_kesha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Ke$sha\",\r\n    \"first_name\":\"Kesha\",\r\n    \"last_name\":\"Serbert\",\r\n    \"bio\":\"I am a terrible artist\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_artist_eminem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Eminem\",\r\n    \"first_name\":\"Marshall\",\r\n    \"last_name\":\"Mathers\",\r\n    \"bio\":\"I am an MC from detroit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_artist_ed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Ed\",\r\n    \"first_name\":\"Edward\",\r\n    \"last_name\":\"Sheeran\",\r\n    \"bio\":\"I am an artist from the UK \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_artist_[invalid]",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Atlas\",\r\n    \"last_name\":\"Frontaine\",\r\n    \"bio\":\"I am from Atlast Industries\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_artist_eminem",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Eminem\",\r\n    \"first_name\":\"Slim\",\r\n    \"last_name\":\"Shady\",\r\n    \"bio\":\"I am an MC from detroit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_artist_kesha",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Artist/Ke$sha",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist",
+						"Ke$sha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_album_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/home/Album",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Album"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_album_description_ABC123KOK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/home/Album/ABC123KOK",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Album",
+						"ABC123KOK"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_album_ABC123KOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"album\": {\r\n        \"isrc\":\"ABC123KOK\",\r\n        \"title\":\"freedom\",\r\n        \"release_year\":2020,\r\n        \"content_description\":\"Music about freedom\"\r\n    },\r\n    \"nickname\":\"Ed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/AlbumJson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"AlbumJson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_album_XYZ0887SH",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"album\": {\r\n        \"isrc\":\"XYZ0887SH\",\r\n        \"title\":\"Recovery\",\r\n        \"release_year\":2010,\r\n        \"content_description\":\"Music about recover over addiction\"\r\n    },\r\n    \"nickname\":\"Eminem\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/AlbumJson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"AlbumJson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_album_invalid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"album\": {\r\n        // \"isrc\":\"ABC123KOK\",\r\n        \"title\":\"freedom\",\r\n        \"release_year\":2020,\r\n        \"content_description\":\"\"\r\n    },\r\n    \"nickname\":\"Ed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/AlbumJson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"AlbumJson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_album_ABC123KOK",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"album\": {\r\n        \"isrc\":\"ABC123KOK\",\r\n        \"title\":\"Relapse\",\r\n        \"release_year\":2010,\r\n        \"content_description\":\"Music about getting addicted\"\r\n    },\r\n    \"nickname\":\"Eminem\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/AlbumJson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"AlbumJson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_album_ABC123KOK",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/home/Album/ABC123KOK",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Album",
+						"ABC123KOK"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_artist_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/home/Artist/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home",
+						"Artist",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

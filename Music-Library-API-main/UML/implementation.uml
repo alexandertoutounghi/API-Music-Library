@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.repository.implementation</OriginalElement>
+  <nodes>
+    <node x="217.0" y="33.0">com.repository.implementation.AlbumArtistActions</node>
+    <node x="443.92500000000007" y="192.0">com.repository.implementation.AlbumActions</node>
+    <node x="619.0" y="0.0">com.repository.implementation.IAlbumActions</node>
+    <node x="175.075" y="192.0">com.repository.implementation.ArtistActions</node>
+    <node x="0.0" y="0.0">com.repository.implementation.IArtistActions</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.repository.implementation.ArtistActions" target="com.repository.implementation.AlbumArtistActions">
+      <point x="65.66666666666663" y="-71.0" />
+      <point x="339.2416666666666" y="167.0" />
+      <point x="360.25" y="167.0" />
+      <point x="-47.75" y="38.0" />
+    </edge>
+    <edge source="com.repository.implementation.ArtistActions" target="com.repository.implementation.IArtistActions">
+      <point x="-65.66666666666669" y="-71.0" />
+      <point x="207.9083333333333" y="167.0" />
+      <point x="98.5" y="167.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.repository.implementation.AlbumActions" target="com.repository.implementation.AlbumArtistActions">
+      <point x="-65.66666666666669" y="-71.0" />
+      <point x="476.7583333333333" y="167.0" />
+      <point x="455.75" y="167.0" />
+      <point x="47.75" y="38.0" />
+    </edge>
+    <edge source="com.repository.implementation.AlbumActions" target="com.repository.implementation.IAlbumActions">
+      <point x="65.66666666666669" y="-71.0" />
+      <point x="608.0916666666667" y="167.0" />
+      <point x="717.5" y="167.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="167.0" />
+  <SelectedNodes>
+    <node>com.repository.implementation.IArtistActions</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
